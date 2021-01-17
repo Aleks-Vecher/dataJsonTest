@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    max-width: 1140px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: auto;
+}
+
+/*Player*/
+
+.player {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.player_container {
+    text-align: center;
+}
+
+#myVideo {
+    margin: auto;
+}
+
+/*VideoList*/
+
+.videoList {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.filmContainerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    width: 33%;
+    text-align: center;
+}
+
+.description {
+    padding: 40px 30px;
+}
+
+.imgVideo {
+    width: 250px;
+}
+
+.description_close {
+    display: none;
+}
+
+.showDescription {
+    margin: 15px 20px 0;
+}
+
+.subtitle {
+    margin: 15px 0;
+}
